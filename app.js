@@ -31,7 +31,7 @@
 // Exponentiation Operator
 // Optional chaining
 // Object Methods (keys,values,freez,entries)
-// Destructuring //p
+// Destructuring //p 
 // Template literals //p
 // Destructuring //p
 // Default parameters //p
@@ -64,3 +64,23 @@
 
 // console.log(userName,age,{country});
 
+
+
+// Template literals
+
+// const greetUser = `hello Template literals`
+
+// console.log(greetUser);
+
+
+// const nested = `This is a ${`nested ${`template`} literal`}!`;
+
+// console.log(nested);
+
+
+// function toUpperCase(str) {
+//     return str.toUpperCase();
+// }
+
+// const dynamicString = `This is ${toUpperCase('awesome')}!`;
+// console.log(dynamicString);
