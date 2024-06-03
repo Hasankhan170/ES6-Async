@@ -33,7 +33,6 @@
 // Object Methods (keys,values,freez,entries)
 // Destructuring //p 
 // Template literals //p
-// Destructuring //p
 // Default parameters //p
 // Rest parameter //p
 // Spread Operator //p
@@ -66,7 +65,9 @@
 
 
 
-// Template literals
+// Template literals // randaring ka kam krta ha
+
+
 
 // const greetUser = `hello Template literals`
 
@@ -84,3 +85,37 @@
 
 // const dynamicString = `This is ${toUpperCase('awesome')}!`;
 // console.log(dynamicString);
+
+
+
+
+
+// Default parameters 
+
+// function greet(name = 'Guest'){
+//     return `hello, ${name}`
+// }
+
+// console.log(greet());
+// console.log(greet('hasan'));
+
+
+// function creatUser(userName = 'tayyab', age = 20){
+//     return {userName , age}
+// }
+
+// console.log(creatUser());
+// console.log(creatUser('hasan'));
+// console.log(creatUser('ahsan',50));
+
+// function value(num =10){
+//     return `value is ${num}`
+// }
+
+// console.log(value());
+// console.log(value(undefined));
+// console.log(value(null));
+// console.log(value(0));
+// console.log(value(''));
+
+
