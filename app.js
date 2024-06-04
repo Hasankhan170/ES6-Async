@@ -36,8 +36,8 @@
 // Default parameters //p      // parameter ma pehly sy value de sakty hain
 // Rest parameter //p          // rest parameter syntax ka istemal karke aap aik function ko kitni bhi arguments accept karne ki sahulat de sakte hain aur un sab ko aik array mein store kar sakte hain.
 // Spread Operator //p         // spread operator ka istemal object ya array ko expand karne ke liye kiya jata hai. Is operator ko teen dots (...) ke zariye denote kiya jata hai. 
-// Arrow functions  //p
-// Enhanced object literals //p
+// Arrow functions  //p        // arrow functions aik compact syntax provide karte hain jo ke traditional function expressions ke mukabley chhote aur zyada readable hote hain.
+// Enhanced object literals //p  // enhanced object literals ka istemal object literals ko define karne ka ek asan aur zyada expressive tareeqa hai. Enhanced object literals se aap objects ko define karte waqt kuch mukhtalif features ka faida utha sakte hain jo traditional object literals mein available nahi hota 
 // Iterators & For..of  //p
 // Map  //p
 // Array methods  //p
@@ -125,6 +125,20 @@
 
 //spread operator // spread operator ka istemal object ya array ko expand karne ke liye kiya jata hai. Is operator ko teen dots (...) ke zariye denote kiya jata hai. 
 
+// const obj1 ={a: 1, b: 2}
+// const obj2 ={c: 3, d: 4}
+
+// const merge = {...obj1,...obj2}
+
+// console.log(merge);
+
+
+// const arr = [1,2,3,4,5]
+// const arr2 = [6,...arr]
+
+// console.log(arr2);
+
+
 
 
 
@@ -144,3 +158,63 @@
 //   console.log(username);
 // }
 // hello("abdullah", "usman", "ammar", "zain", "hassan");
+
+
+// function hello(greeting,...user){
+//     return `${greeting} ${user.join(',')}`
+// }
+
+// console.log(hello('hello', 'abdullah', 'usman', 'ammar', 'zain', 'hassan'));
+
+
+
+
+// Arrow functions // arrow functions aik compact syntax provide karte hain jo ke traditional function expressions ke mukabley chhote aur zyada readable hote hain.
+
+// const hello = (userName)=>{
+//     return userName
+// }
+// console.log(hello('abdullah'));
+
+
+// const num = (mul)=> mul * 2
+
+// console.log(num(5));
+
+
+// const hello = ()=>{
+//     return `hasan`
+// }
+// console.log(hello())
+
+
+
+
+// Enhanced object literals //  enhanced object literals ka istemal object literals ko define karne ka ek asan aur zyada expressive tareeqa hai. Enhanced object literals se aap objects ko define karte waqt kuch mukhtalif features ka faida utha sakte hain jo traditional object literals mein available nahi hota
+
+
+// const userName = 'hasan'
+// const age = 12
+
+// const obj ={
+//     userName,
+//     age
+// }
+
+// console.log(obj);
+
+// const property = 'my property'
+
+// const obj = {
+//     [property] : 'hasan'
+// }
+
+// console.log(obj);
+
+// const myObject = {
+//     myMethod(param) {
+//       return `Hello, ${param}!`;
+//     },
+//   };
+  
+//   console.log(myObject.myMethod('hasan'));
