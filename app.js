@@ -31,11 +31,11 @@
 // Exponentiation Operator
 // Optional chaining
 // Object Methods (keys,values,freez,entries)
-// Destructuring //p 
-// Template literals //p
-// Default parameters //p
-// Rest parameter //p
-// Spread Operator //p
+// Destructuring //p             // ek obj ko break krne ka kam krta ha
+// Template literals //p        // randaring ka kam krta ha
+// Default parameters //p      // parameter ma pehly sy value de sakty hain
+// Rest parameter //p          // rest parameter syntax ka istemal karke aap aik function ko kitni bhi arguments accept karne ki sahulat de sakte hain aur un sab ko aik array mein store kar sakte hain.
+// Spread Operator //p         // spread operator ka istemal object ya array ko expand karne ke liye kiya jata hai. Is operator ko teen dots (...) ke zariye denote kiya jata hai. 
 // Arrow functions  //p
 // Enhanced object literals //p
 // Iterators & For..of  //p
@@ -90,7 +90,7 @@
 
 
 
-// Default parameters 
+// Default parameters // parameter ma pehly sy value de sakty hain
 
 // function greet(name = 'Guest'){
 //     return `hello, ${name}`
@@ -119,3 +119,28 @@
 // console.log(value(''));
 
 
+
+
+
+
+//spread operator // spread operator ka istemal object ya array ko expand karne ke liye kiya jata hai. Is operator ko teen dots (...) ke zariye denote kiya jata hai. 
+
+
+
+
+
+
+//Rest parameter // rest parameter syntax ka istemal karke aap aik function ko kitni bhi arguments accept karne ki sahulat de sakte hain aur un sab ko aik array mein store kar sakte hain.
+
+
+// function hello(...number){
+//     return number.reduce((total,num)=> total + num,0)
+// }
+
+// console.log(hello(1,2,3,4,5))
+
+
+// function hello(...username) {
+//   console.log(username);
+// }
+// hello("abdullah", "usman", "ammar", "zain", "hassan");
