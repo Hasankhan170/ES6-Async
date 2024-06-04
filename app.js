@@ -38,11 +38,11 @@
 // Spread Operator //p         // spread operator ka istemal object ya array ko expand karne ke liye kiya jata hai. Is operator ko teen dots (...) ke zariye denote kiya jata hai. 
 // Arrow functions  //p        // arrow functions aik compact syntax provide karte hain jo ke traditional function expressions ke mukabley chhote aur zyada readable hote hain.
 // Enhanced object literals //p  // enhanced object literals ka istemal object literals ko define karne ka ek asan aur zyada expressive tareeqa hai. Enhanced object literals se aap objects ko define karte waqt kuch mukhtalif features ka faida utha sakte hain jo traditional object literals mein available nahi hota 
-// Iterators & For..of  //p
+// Iterators & For..of  //p  // JavaScript mein for...of aur for...in loops dono ka istemal objects ya arrays ke elements ko iterate karne ke liye hota hai, lekin dono mein thoda farq hai.
 // Map  //p
 // Array methods  //p
-// Higher-order function  //p
-// CallBack  //p
+// Higher-order function  //p      // wo function jo apna under as an argument aik callback leta ha us function ko higher order function kehta hain!
+// CallBack  //p        //callback function wo function hota ha jo ma kisi bhi function ka as an argument bhejdeta krdeta ho
 // Promises  //p
 // Ternary Operator //p
 
@@ -218,3 +218,45 @@
 //   };
   
 //   console.log(myObject.myMethod('hasan'));
+
+
+
+
+
+
+// Iterators & For..of   // JavaScript mein for...of aur for...in loops dono ka istemal objects ya arrays ke elements ko iterate karne ke liye hota hai, lekin dono mein thoda farq hai.
+// for loop use in array
+// in loop use in obj
+
+
+// const iterable = ['a','b','c']
+
+// for(const hasan in iterable){
+//     console.log(hasan);
+// }
+
+
+// const obj = {
+//     userName : 'hasan',
+//     age: 12,
+//     gender : 'male'
+// }
+
+// for(const key in obj){
+//     console.log(obj[key]);
+// }
+
+
+// Ternary Operator 
+
+
+// const num = 60;
+
+// num > 20 ?  console.log('passed') : console.log('failes')
+
+
+// num > 70 ? console.log('behtreen') : num > 50 ? console.log('passed') : console.log('failes');
+
+
+
+
